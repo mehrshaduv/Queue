@@ -1,0 +1,4 @@
+.vscode
+obj/Debug/*
+bin/Debug/net6.0/Queue
+bin/Debug/net6.0/Queue.pdb

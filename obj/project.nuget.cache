@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "bksk/avzFRFbgyOHSQ2EOpuvapY1TsgCNkULdIoq3kUlzFOQyXtBx1J9lgumA6rHEJEu521JYEaJdI9SUPbexQ==",
+  "success": true,
+  "projectFilePath": "/home/senator/project/dotnet/Queue/Queue.csproj",
+  "expectedPackageFiles": [
+    "/home/senator/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/senator/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/senator/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
