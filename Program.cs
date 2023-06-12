@@ -12,9 +12,9 @@ namespace Queue
             int[] Queue = new int[len];
             while(true)
             {
-                Console.Write("[1] for add the number at Queue\n[2] for delete the number at Queue\n>");
+                Console.Write("[1] for add the number at Queue\n[2] for delete the number at Queue\n[3] for show\n[99] to exit :)\n>");
                 index = Convert.ToInt32(Console.ReadLine());
-                if(index == -1)
+                if(index == 99)
                 {
                     break;
                 }
@@ -27,6 +27,10 @@ namespace Queue
                 else if(index == 2)
                 {
                     deleteQ(ref Queue, ref front, ref rear);
+                }
+                else if(index == 3)
+                {
+                    showQ(ref Queue);
                 }
             }
         }
@@ -53,6 +57,15 @@ namespace Queue
             Queue[front+1] = 0; //remove item !!
             front++;
 
+        }
+
+        public static void showQ(ref int[] Queue)
+        {
+            for(int i = 0; i < Queue.Length; i++)
+            {
+                Console.Write("{0}\t", Queue[i]);
+            }
+            Console.WriteLine();
         }
     }
 }
